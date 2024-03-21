@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Projeto de Previsão do Tempo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi desenvolvido em React e tem como objetivo fornecer informações detalhadas sobre a previsão do tempo para uma determinada localidade, incluindo umidade, velocidade do ar, temperatura atual, temperatura máxima e mínima, além de mudar o plano de fundo de acordo com a descrição do tempo atual.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- Exibir a temperatura atual
+- Mostrar umidade, velocidade do ar, temperatura máxima e mínima
+- Alterar o plano de fundo de acordo com a descrição do tempo atual
+- Permitir busca por localidade
 
-### `npm start`
+## Acesso ao Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O projeto foi hospedado e pode ser acessado através do seguinte link: https://react-previsao-tempo.vercel.app/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Como Rodar o Projeto Localmente
 
-### `npm test`
+Para rodar o projeto localmente, siga os passos abaixo:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone o repositório
+2. Instale as dependências com o comando: 
+   ```
+   $ npm install
+   ```
+3. Inicie o servidor de desenvolvimento com o comando:
+   ```
+   $ npm start
+   ```
+4. Acesse o projeto no navegador através do endereço: `http://localhost:3000`
 
-### `npm run build`
+## Tecnologias Utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React
+- API de Previsão do Tempo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contribuição
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-### `npm run eject`
+## Autor
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Yuri Souza Machado
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+--- 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Lembre-se de substituir "Inserir link de acesso ao deploy aqui" pelo link real do deploy do seu projeto.
