@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.main {
+  background-image: url("../Images/Background/back-home.jpg");
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center left center;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+  transition: all ease-in-out 0.3s;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+}
+
+form input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+form input[type="submit"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+form input[type="submit"]:hover {
+  background-color: #2b61a0;
+  color: #fff;
+}
+
+
+
+@media (min-width: 416px) and (max-width:1180px){
+  .app {
+    width: 600px;
+  }
+  
+  form input[type="text"] {
+    width: 90%;
+  }
+}
+@media (min-width: 350px) and (max-width:415px){
+  .app {
+    width: 340px;
+  }
+  
+  form input[type="text"] {
+    width: 80%;
+  }
+}
+
+@media (min-width: 279px) and (max-width: 349px) {
+  .app {
+    width: 250px;
+  }
+  form input[type="text"] {
+    width: 80%;
+  }
+  .informations h1 {
+    display: flex;
+    font-size: 10px;
+  }
+}

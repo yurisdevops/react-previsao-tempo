@@ -1,0 +1,41 @@
+.new-main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+  transition:ease-in-out 1s ;
+}
+
+.nublado {
+  background-image: url("../Images/Background/nublado.jpg");
+}
+
+.névoa {
+  background-image: url("../Images/Background/nevoa.jpg");
+}
+
+.dispersas {
+  background-image: url("../Images/Background/nuvens-dispersas.jpg");
+}
+
+.algumas {
+  background-image: url("../Images/Background/algumas-nuvens.jpg");
+}
+
+.limpo {
+  background-image: url("../Images/Background/ceu-limpo.jpg");
+}
+
+.chuva {
+  background-image: url("../Images/Background/chuva.jpg");
+}
+
+.leve {
+  background-image: url("../Images/Background/chuva-leve.jpg");
+}

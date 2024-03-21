@@ -1,0 +1,98 @@
+.app {
+    background-image: url("../Images/Background/background-principal.gif");
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.8;
+    max-width: 500px;
+    background-color: #778899;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -13px 11px 6px -6px rgba(0, 0, 0, 0.75);
+  }
+  
+  .informations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-shadow: black 3px 2px 2px;
+  }
+  
+  .informations h1 {
+    font-size: 35px;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  .temperatura {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .max-min {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 8pxpx;
+  }
+  
+  .wind-rain {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 10px;
+  }
+  .wind-rain span {
+    width: 2px;
+    height: 35px;
+    background-color: #fff;
+    margin-top: -5px;
+  }
+  
+  .rain img {
+    width: 17px;
+    margin-right: 5px;
+    margin-top: -5px;
+  }
+  
+  .rain {
+    font-size: 17px;
+  }
+  
+  .wind img {
+    width: 22px;
+    margin-right: 5px;
+    margin-top: -5px;
+  }
+  
+  .titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .divisoriaUm {
+    height: 2px;
+    width: 370px;
+    max-width: 450px;
+    background-color: #fff;
+    margin-bottom: 5px;
+  }
+  
+  .description p {
+    text-transform: capitalize;
+  }
+  
+  .description img {
+    width: 40px;
+    margin-top: -5px;
+  }
+  
+
