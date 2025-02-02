@@ -32,14 +32,14 @@ O **Previsão do Tempo** é uma aplicação web que consome a API do [OpenWeathe
 
 ## Como Usar
 
-### 1. Clonar o Repositório:
+### 1. Clonar o Repositório
 
 ```bash
 git clone https://github.com/seu-usuario/react-previsao-tempo.git
 cd react-previsao-tempo
+```
 
-
-### 2. Instalar Dependências:
+### 2. Instalar Dependências
 
 Com `npm`:
 
@@ -53,15 +53,7 @@ Com `yarn`:
 yarn install
 ```
 
-### 3. Configurar a API Key:
-
-Crie um arquivo `.env` na raiz do projeto e insira sua chave da API do OpenWeatherMap:
-
-```env
-REACT_APP_OPENWEATHER_API_KEY=SUA_API_KEY_AQUI
-```
-
-### 4. Iniciar o Servidor de Desenvolvimento:
+### 3. Iniciar o Servidor de Desenvolvimento
 
 Com `npm`:
 
@@ -75,7 +67,7 @@ Com `yarn`:
 yarn start
 ```
 
-### 5. Abrir no Navegador:
+### 4. Abrir no Navegador
 
 Acesse a aplicação em seu navegador em [Previsão do Tempo](https://react-previsao-tempo.vercel.app).
 
@@ -86,8 +78,17 @@ Este projeto está hospedado na **Vercel**. Para fazer o deploy do projeto na Ve
 1. Crie uma conta na [Vercel](https://vercel.com/), se ainda não tiver uma.
 2. Clique em **"New Project"** no painel da Vercel.
 3. Conecte sua conta do GitHub e selecione este repositório.
-4. Configure a variável de ambiente `REACT_APP_OPENWEATHER_API_KEY` com sua API Key.
-5. Clique em **Deploy** e aguarde a publicação. Após o deploy, o link para acessar a aplicação será fornecido.
+4. Clique em **Deploy** e aguarde a publicação. Após o deploy, o link para acessar a aplicação será fornecido.
+
+## Estrutura do Projeto
+
+- **`public`**: Arquivos públicos.
+- **`src`**:
+  - **`Error`**: Páginas de erro.
+  - **`Images`**: Imagens do projeto.
+  - **`Style`**: Arquivos de estilo.
+  - **`App.js`**: Componente principal da aplicação.
+  - **`index.js`**: Ponto de entrada da aplicação.
 
 ## Contribuição
 
@@ -107,6 +108,4 @@ Este projeto está licenciado sob a [MIT License](https://opensource.org/license
 ---
 
 ### 🌤️ **Descubra o clima em sua cidade de forma prática e visualmente atrativa com o Previsão do Tempo!**
-```  
 
-Agora está no formato ideal para copiar e colar diretamente!
