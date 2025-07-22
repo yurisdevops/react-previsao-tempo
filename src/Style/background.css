@@ -13,29 +13,33 @@
 }
 
 .nublado {
-  background-image: url("../Images/Background/nublado.jpg");
+  background-image: url("../../public/images/nublado.webp");
 }
 
 .névoa {
-  background-image: url("../Images/Background/nevoa.jpg");
+  background-image: url("../../public/images/nevoa.webp");
 }
 
 .dispersas {
-  background-image: url("../Images/Background/nuvens-dispersas.jpg");
+  background-image: url("../../public/images/nuvens-dispersas.webp");
 }
 
 .algumas {
-  background-image: url("../Images/Background/algumas-nuvens.jpg");
+  background-image: url("../../public/images/algumas-nuvens.webp");
 }
 
 .limpo {
-  background-image: url("../Images/Background/ceu-limpo.jpg");
+  background-image: url("../../public/images/chuva-leve.webp");
 }
 
 .chuva {
-  background-image: url("../Images/Background/chuva.jpg");
+  background-image: url("../../public/images/chuva.webp");
 }
 
 .leve {
-  background-image: url("../Images/Background/chuva-leve.jpg");
+  background-image: url("../../public/images/chuva-leve.webp");
+}
+
+.neve{
+  background-image: url("../../public/images/neve.webp");
 }

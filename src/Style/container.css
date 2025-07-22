@@ -1,5 +1,5 @@
 .app {
-    background-image: url("../Images/Background/background-principal.gif");
+    background-image: url("../../public//images//background-principal.gif");
     background-position: center center;
     background-size: cover;
     opacity: 0.8;

@@ -6,7 +6,7 @@
 }
 
 .main {
-  background-image: url("../Images/Background/back-home.jpg");
+  background-image: url("../../public//images/back-home.webp");
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -47,22 +47,20 @@ form input[type="submit"]:hover {
   color: #fff;
 }
 
-
-
-@media (min-width: 416px) and (max-width:1180px){
+@media (min-width: 416px) and (max-width: 1180px) {
   .app {
     width: 600px;
   }
-  
+
   form input[type="text"] {
     width: 90%;
   }
 }
-@media (min-width: 350px) and (max-width:415px){
+@media (min-width: 350px) and (max-width: 415px) {
   .app {
     width: 340px;
   }
-  
+
   form input[type="text"] {
     width: 80%;
   }
