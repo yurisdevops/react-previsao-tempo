@@ -54,6 +54,8 @@ function App() {
     }
   };
 
+  console.log(description)
+
   useEffect(() => {
     if (description && background.current) {
       background.current.className = `${description} new-main`;

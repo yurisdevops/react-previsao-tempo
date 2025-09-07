@@ -9,7 +9,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   font-family: "Roboto", sans-serif;
-  transition:ease-in-out 1s ;
+  transition: ease-in-out 1s;
 }
 
 .nublado {
@@ -40,6 +40,6 @@
   background-image: url("../../public/images/chuva-leve.webp");
 }
 
-.neve{
+.neve {
   background-image: url("../../public/images/neve.webp");
 }
